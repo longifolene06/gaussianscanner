@@ -4,7 +4,7 @@ filename = input('Input the filename. Try THE ABSOLUTE path if doesn\'t work.')
 exset = ['Eigenvalues --']
 flag = 1
 while flag != 0:
-    ipt = input('Input scanned variants. (In the form of R3,A11,D22.) Leave blank to continue.')
+    ipt = input('Input scanned variants. (In the form of R3, A11 or D22. Once each line.) Leave blank to continue.')
     if ipt != '':
         exset.append(ipt)
     else:
